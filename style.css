@@ -1,0 +1,137 @@
+*{
+    
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    max-width: 100%;
+
+}
+body{
+    width:99.9% !important;
+    padding:0;
+
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+  }
+header{
+    font-family: 'Open Sans',sans-serif;
+    color: black;
+    font-weight: 100;
+}
+i{
+    height: 1rem;
+    width: 1rem;
+}
+.carousel-indicators li {
+    border-radius: 7px;
+    width: 7px;
+    height: 7px;
+    background-color: #404040;
+}
+.card_wrapper{
+    width:100%;
+    height: auto;
+    min-height: 650px;
+    background-image: url(/img/card_bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment:fixed;
+    padding:200px 0 100px 0;  
+    cursor:pointer;
+  
+    
+}
+.card_wrapper .card:hover{
+    box-shadow: 0px 2px 70px 0 rgb(253 71 102/5%);
+    transform: translateY(-8px);
+    transition: all 0.4s ease-in;
+    transition: all 0.4s ease-out;
+    
+}
+.services_wrapper{
+    width:100%;
+    height: auto;
+    min-height: 650px;
+    background-image: url(/img/OverflowServiceImage.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment:fixed;
+    padding:200px 0 100px 0;  
+    cursor:pointer;
+}
+.iconcolor{
+    color:white;
+}
+.GrayFooterPart{
+width: 100%;
+}
+#OverlayHideImg{
+    transition: transform 0.5s ease;
+    
+}
+#OverlayHideImg:hover{
+    transform: scale(1.2);
+  
+}
+#Boundary{
+    overflow: hidden;
+}
+a.dropdown-item {
+    color:rgb(224, 201, 201);
+    background-color: black;
+
+}
+a.dropdown-item:hover{
+    transform: translateX(1.5px);
+    transition: transform 0.5s ease;
+    color: blue;
+    background-color: black;
+}
+.dropdown-menu {
+    min-width:13rem ;
+    overflow: hidden;
+}
+#navbarDropdownMenuLink:hover,
+.navbar-light .navbar-nav .active>.nav-link:hover{
+    color: blue;
+}
+.scrollup{
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    position: fixed;
+    bottom: 22px;
+    right: 20px;
+    display: visible;
+    text-indent: -9999px;
+    background: #0095ff url(/img/scroll-top-arrow.png) no-repeat 15px 16px;
+    border-radius: 50%;
+    z-index: 999;
+}
+.card-img-top1:hover{
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.2) rotate(9deg);
+}
+#gal{
+    overflow: hidden;
+}
+.ci1{
+
+    padding:1rem;
+    
+}
+.cc2{
+    padding: 1rem 10rem;
+    background-color:#ddd;
+}
+.carddes{
+
+    border-bottom-color: #0095ff;
+    box-shadow: 0 5px 10px rgb(120 120 120 / 25%);
+}
+.row.d-block.mb-5{
+    text-align: center;
+}
